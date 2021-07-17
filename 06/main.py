@@ -13,6 +13,10 @@ print(xx)
 c = 'aaaaaasdfsafwefadcevwegxxxxxxxxxx'
 xx = re.sub('[ax]{2}', '*', c)
 print(xx)
+x = re.compile(r"[ax]{2}")
+xx = x.sub("*",c)
+print(xx)
+
 # 替换
 
 
