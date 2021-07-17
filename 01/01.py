@@ -48,9 +48,9 @@ xx = x.findall(a)
 print(xx)
 # 1次
 
-d = '1124325mdbj132'
-x = re.compile(r'^\d*$')
-xx = x.match(d)
+d = '112432\n5mdbj132'
+x = re.compile('^[\w\n]*$')
+xx = x.findall(d)
 print(xx)
 #  ^$ 定义 起止
 

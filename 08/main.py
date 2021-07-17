@@ -2,7 +2,7 @@
 
 import re
 
-a = 'shdgfkw  bg2vriub  wow wo world word well talk woowo  ljsbvou   21231sthed231a  dsfAAAA32sd23哈尔滨ssdfdsh哈尔滨士大夫'
+a = 'shdgfkw  bg2vriub  wow wo world word well talk woowo  ljsbvou   21231sthed231a  dsfAAAA32sd23哈尔滨ssdfdsh哈尔滨士大夫s'
 
 x = re.compile(r'(s.*s)')
 xx = x.findall(a)
